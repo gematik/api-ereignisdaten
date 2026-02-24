@@ -16,8 +16,8 @@ Die weiteren Beschreibungen auf dieser Seite gelten für alle Endpunkte der Erei
 
 | Ereignisdatenschnittstelle | technische Beschreibung | Referenz gemSpec_Perf  (ab Version 2.41)|
 |----------|----------|----------|
-| eHealth-CardLink | [Link: eHealth-CardLink ](api-ereignisdaten/content/eHealth-CardLink.md) | 3.23 eHealth-CardLink (PDT77) |
-| TI-Messenger Fachdienst | [Link: TI-Messenger](api-ereignisdaten/content/TI-Messenger.md) | 3.3 TI-Messenger Fachdienst (TI-M) (PDT80, PDT83)  |
+| eHealth-CardLink | [Link: eHealth-CardLink ](./eHealth-CardLink.md) | 3.23 eHealth-CardLink (PDT77) |
+| TI-Messenger Fachdienst | [Link: TI-Messenger](./TI-Messenger.md) | 3.3 TI-Messenger Fachdienst (TI-M) (PDT80, PDT83)  |
 
 
 # 3. Authentifizierung und Request
