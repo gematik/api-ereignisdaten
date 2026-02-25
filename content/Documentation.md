@@ -108,6 +108,10 @@ Beispiele von Datenlieferung und entsprechend zu erwartender Response:
   ```bash
   {"statusCode":400,"message":"body not parsable"}
   ```
+- Beispiel für Lieferungen mit mehr als einer unzulässigen Datenangabe:
+  ```bash
+  {"statusCode":400,"message":"missing fields: msList"}
+  ```
 - Lieferungen mit unzulässigen Dateninhalten:
   ```bash
   {"errorMessage": "content errors: timestemp is not an integer","statusCode": 400}
@@ -116,9 +120,9 @@ Beispiele von Datenlieferung und entsprechend zu erwartender Response:
   {"statusCode":400,"message":"content errors: ci is not a valid CI-ID format (CI-0000000)"}
   ```
   ```bash
-  {"statusCode":400,"message":"content errors: abfragezeitpunkt has not the specified timestamp format (YYYY-MM-DDTHH:mm:ss[.fff]Z) or is an invalid value"}
+  {"statusCode":400,"message":"content errors: abfragezeitpunkt has not the specified timestamp format (YYYY-MM-DDTHH:mm:ss[.fff]Z) or is an invalid value,ci value from body and url are not matching"}
   ```
-  
+
 **Allgemeine Übersicht zu http-Statuscodes**
 
 | **Status** | **Beschreibung** | **autom. Retry** |
